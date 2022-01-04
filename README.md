@@ -1,0 +1,3 @@
+<h1>Seam Carver</h1>
+<h3>Image Processing Java Program</h3>
+<p>Seam Carver is an image processing algorithm written in Java. It implements a content-aware image resizing function that enables image resizing while maintaining the aspect ratio and image contents unlike traditional resizing methods like cropping. The algorithm uses a dual-gradient energy function and a linear-time shortest path algorithm based on a topological sort to identify the lowest energy 'seam' in the image and remove the seam. I optimized the algorithm using memoization to decrease the number of repeated calculations. This is done by only recalculating pixel energies along the removed seam. This optimization reduced the running time by a factor of 10x for 500px by 500px images.</p>
